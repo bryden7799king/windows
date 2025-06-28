@@ -3,5 +3,9 @@
   "service": "windows",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml",
-  "machine": "premiumLinux"
+    "hostRequirements": {
+      "cpus": 8,
+      "memory": "8gb",
+      "storage": "32gb"
+  }
 }
