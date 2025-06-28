@@ -3,9 +3,9 @@
   "service": "windows",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml",
-    "hostRequirements": {
-      "cpus": 8,
-      "memory": "8gb",
-      "storage": "32gb"
+  "hostRequirements": {
+    "cpus": 8,
+    "memory": "8gb",
+    "storage": "32gb"
   }
 }
